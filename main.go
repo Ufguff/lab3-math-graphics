@@ -17,7 +17,7 @@ func main() {
 	rl.InitWindow(config.W, config.H, "LAB 3")
 	defer rl.CloseWindow()
 
-	rl.SetTargetFPS(30)
+	rl.SetTargetFPS(120)
 
 	for !rl.WindowShouldClose() {
 
